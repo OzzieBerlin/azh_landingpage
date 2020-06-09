@@ -4,17 +4,24 @@
   <meta charset="UTF-8">
   <title>Arbeitszeugnishilfe</title>
   <link rel="stylesheet" type="text/css" href="./resources/css/index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
+<!-- 
+4. Social Media Links in den Footer rein
+5. Footer links Impressum / Adresse, Mitte links Kontakt DE, Mitte rechts Kontakt CH, rechts SoMe-Buttons
+-->
 
  <body>
 <header>
-    <img src="./resources/images/azh_logo.svg" alt="">
-    <!-- <p>Arbeitszeugnishilfe.</p> -->
-    <nav>
+  <img src="./resources/images/AZH_Logo_transp.png" alt="">
+  <!-- Navbar Section -->
+  <nav>
+    
       <ul>
-    <li><a href="#">Schweiz: www.arbeitszeugnishilfe.ch</a></li>
-    <li><a href="#">Deutschland: www.arbeitszeugnishilfe.de</a></li>
+        <li><a href="https://arbeitszeugnishilfe.de">Deutschland: www.arbeitszeugnishilfe.de</a></li>
+    <li><a href="https://arbeitszeugnishilfe.ch">Schweiz: www.arbeitszeugnishilfe.ch</a></li>
   </ul>
     </nav>
   </header>
@@ -25,25 +32,24 @@
     </div>
     <section>
       <h1>Ihr Arbeitszeugnis richtig verstehen.</h1>
-      <p>Ich heisse Sie herzlich willkommen auf arbeitszeugnishilfe.com. Arbeitszeugnisse weisen eine eigene Sprache auf, die nicht jeder klar interpretieren kann. Arbeitszeugnisse sind wichtig für Bewerbungen. Wir möchten, dass jeder die bestmöglichen Chancen hat. Darum helfen wir Ihnen, dass Sie Ihr Arbeitszeugnis richtig verstehen. Zwei qualifizierte Zeugnis-Experten überprüfen ihr Zeugnis und geben Ihnen ein detailliertes Feedback in einem mehrseitigen Dokument.
+      <p>Ich heisse Sie herzlich willkommen auf arbeitszeugnishilfe.com. Arbeitszeugnisse weisen eine eigene Sprache auf, die nicht jeder klar interpretieren kann. Arbeitszeugnisse sind wichtig für Bewerbungen. Wir möchten, dass jeder die bestmöglichen Chancen hat. Darum helfen wir Ihnen, dass Sie Ihr Arbeitszeugnis richtig verstehen. <strong>Zwei qualifizierte Zeugnis-Experten überprüfen ihr Zeugnis und geben Ihnen ein detailliertes Feedback in einem mehrseitigen Dokument.</strong>
       </p>
     </section>
       <section>
         <div class="flexcontainer">
+          <article class="countrybox">
+            <h2>Für Besucher aus Deutschland:</h2>
+            <p>Wenn Sie aus Deutschland sind, besuchen Sie bitte unsere Deutsche Website.</p>
+            <div class="button">
+            <a href="https://arbeitszeugnishilfe.de/"> Deutsche Website öffnen</a>
+            </div>
+          </article>
           <article class="countrybox">
             <h2>Für Besucher aus der Schweiz:</h2>
             <p>Wenn Sie aus der Schweiz sind (grüezi!), besuchen Sie bitte unsere Schweizer Website. 100% made in Switzerland. Verschprochä. ;)</p>
             <div class="button">
               <a href="https://arbeitszeugnishilfe.ch/">Schweizer Website öffnen</a>
             </div>
-          </article>
-          <article class="countrybox">
-            <h2>Für Besucher aus Deutschland:</h2>
-            <p>Wenn Sie aus Deutschland sind, besuchen Sie bitte unsere Deutsche Website.</p>
-            <div class="button">
-            <a href="https://arbeitszeugnishilfe.de/"> Deutsche Website öffnen</a>    
-            </div>
-
           </article>
         </div>
 
@@ -66,12 +72,33 @@
     </section>
   </main>
 <footer>
-<p>G.A. Vahldiek <br>
-	«www.arbeitszeugnishilfe.ch» <br>
-	Säumerstrasse 11 <br>
-	8803 Rüschlikon <br>
-	Schweiz</p>
+  <div id="footercontainer">
+    <div class="footersection">
+      <!-- Impressum -->
+      <p><strong>Impressum:</strong></p>
+        <p>G.A. Vahldiek / Arbeitszeugnishilfe<br>
+        Säumerstrasse 11 <br>
+        CH-8803 Rüschlikon </p>
+    </div>
+    <div class="footersection">
+      <!-- Kontakt Deutschland -->
+      <p><strong>Kontakt Deutschland:</strong></p>
+        <p>Telefon: +49 511 2001 6688<br>
+          <span class="nobreak">E-Mail: info@arbeitszeugnishilfe.ch</span></p>
+    </div>
+    <div class="footersection">
+      <!-- Kontakt Schweiz -->
+      <p><strong>Kontakt Schweiz:</strong></p>
+        <p>Telefon: +41 44 586 75 76<br>
+        <span class="nobreak">E-Mail: info@arbeitszeugnishilfe.ch</span></p>
+    </div>
+    <div class="footersection">
+      <!-- Social Media Buttons -->
+      <a href="https://www.facebook.com/arbeitszeugnishilfe/" class="fa fa-facebook" target="blank"></a>
+      <a href="https://twitter.com/arbeitszeugnis2" class="fa fa-twitter" target="blank"></a>
+      <a href="https://www.instagram.com/arbeitszeugnishilfe/" class="fa fa-instagram" target="blank"></a>
+    </div>
+</div>
 </footer>
 </body>
-
 </html>
